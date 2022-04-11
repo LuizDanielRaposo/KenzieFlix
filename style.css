@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.pageContent {
+    background-color: #121214;
+}
+.container {
+    width: 700px;
+    margin: auto;
+}
+.contentFlex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo {
+    width: 229px;
+    height: 68px;
+    margin-top: 42px;
+}
+.watching {
+    color: #FFFFFF;
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 73px;
+}
+.profilesFlex {
+    width: 718px;
+    height: 194px;
+    margin-top: 61px;
+    display: flex;
+    justify-content: space-around;
+}
+.imageBox {
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+    background-color: #1E1E20;
+    border-radius: 8px;
+    transition-duration: 0.3s;
+}
+.profileImage {
+    width: 100%;
+    transition-duration: 0.3s;
+}
+.iconify {
+    margin: 32%;
+    color: #6F6F70;
+    transition-duration: 0.3s;
+}
+.name {
+    color: #9C9C9C;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 16px;
+    transition-duration: 0.3s;
+}
+.manageProfiles {
+    width: 206px;
+    height: 50px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 102px;
+    margin-bottom: 88px;
+    background: none;
+    border: 1.5px solid #FFFFFF;
+    border-radius: 8px;
+    transition-duration: 0.3s;
+}
+.redes {
+    color: #9C9C9C;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 16px;
+    transition-duration: 0.3s;
+}
+.profileContent:hover>.imageBox {
+    color: #ffffff;
+    border: 1.5px solid #FFFFFF;
+    transition-duration: 0.3s;
+}
+.profileContent:hover>.imageBox>.profileImage {
+    transform: scale(1.2);
+    transition-duration: 0.3s;
+}
+.profileContent:hover>.imageBox>.iconify,.profileContent:hover>.name {
+    color: #FFFFFF;
+}
+.manageProfiles:hover {
+    color: #000000;
+    background-color: #FFFFFF;
+    transition-duration: 0.3s;
+}
+.redes:hover {
+    color: #ffffff;
+    transition-duration: 0.3s;
+}
